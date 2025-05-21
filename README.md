@@ -6,7 +6,7 @@ This repository contains three Jupyter notebooks developed during my internship 
 
 ## Notebooks
 
-### 1. `gait_parameter_workbook.ipynb`
+### 1. `gait_data_analysis_workbook.ipynb`
 
 An interactive notebook for exploring gait data from individual trials.
 
