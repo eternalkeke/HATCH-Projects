@@ -13,11 +13,9 @@ An interactive notebook for exploring gait data from individual trials.
 Features:
 - Load and combine raw IMU data files
 - Filter and preprocess time-series data
-- Calculate basic gait parameters
-- Generate visualizations (scatter plots, Bland-Altman plots)
+- Calculate basic gait parameters and compare against a reference system
 
 Designed for small-scale analysis and manual inspection of trials.
-Example output 
 
 ### 2. `gait_parameter_sweep.ipynb`
 
@@ -29,6 +27,8 @@ Features:
 - Analyze and visualize results to determine ideal values
 
 Used to improve the accuracy of stride length and stride width calculations.
+Sample output [Parasweep_results.png]
+
 
 ### 3. `gait_report_pdf_extractor.ipynb`
 
