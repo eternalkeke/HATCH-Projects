@@ -1,6 +1,6 @@
 # Gait Analysis Notebooks
 
-This repository contains three Jupyter notebooks developed during my internship at NUS iHealthtech (HATCH group). These tools were built to support research involving an IMU-embedded insole.
+This repository includes three Jupyter notebooks created during my internship at NUS iHealthtech (HATCH group) to support research on an IMU-embedded insole. The notebooks demonstrate the data processing and analysis pipeline; however, the actual data files are not included due to sensitivity.
 
 ---
 
@@ -14,8 +14,10 @@ Features:
 - Load and combine raw IMU data files
 - Filter and preprocess time-series data
 - Calculate basic gait parameters and compare against a reference system
+- Display a interactive scatter plot and Bland Altman plot on the trial data
 
 Designed for small-scale analysis and manual inspection of trials.
+Sample output [`images\Data_analysis_result.png`]
 
 ### 2. `gait_parameter_sweep.ipynb`
 
@@ -27,7 +29,7 @@ Features:
 - Analyze and visualize results to determine ideal values
 
 Used to improve the accuracy of stride length and stride width calculations.
-Sample output [Parasweep_results.png]
+Sample output [`images\Parasweep_results.png`]
 
 
 ### 3. `gait_report_pdf_extractor.ipynb`
